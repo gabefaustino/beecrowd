@@ -6,7 +6,7 @@ for i in entrada:
     valor_float = float(i)
     ordenada.append(valor_float)
 
-ordenada.sort()
+ordenada.sort()     #ordenada.sort(reverse=True) ordena inversamente
 
 a = ordenada[2]
 b = ordenada[1]
